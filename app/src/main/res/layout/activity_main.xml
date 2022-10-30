@@ -14,12 +14,11 @@
         android:layout_width="0dp"
         tools:layout="@layout/fragment_left"/>
 
-    <fragment
-        android:id="@+id/rightFragment"
-        android:name="com.keegan.android.fragmentlightv1.RightFragment"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        tools:layout="@layout/fragment_right" />
+   <LinearLayout
+       android:id="@+id/rightFragment"
+       android:orientation="vertical"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="match_parent" />
 
 </LinearLayout>

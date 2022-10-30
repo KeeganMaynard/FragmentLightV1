@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FragmentLightV1</string>
 
+    <string name="click_me">Click Me</string>
     <string name="red_light">Red Light</string>
     <string name="yellow_light">Yellow Light</string>
     <string name="green_light">Green Light</string>
